@@ -1,6 +1,6 @@
 /*global $*/
 $('.gallary a').each(function(){
-    $(this).css({'background-image': 'url(../' + $(this).attr('href') + ')'});
+    $(this).css({'background-image': 'url(' + $(this).attr('href') + ')'});
  });
 
  /*$('.view-hidden').click(function () {
